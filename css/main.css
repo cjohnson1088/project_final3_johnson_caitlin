@@ -49,6 +49,8 @@ main {
     background-color: #fbcc34;
     position: relative;
     z-index: 1;
+    -webkit-box-shadow: 0 0 4px 1px #595959;
+    box-shadow: 0 0 4px 1px #595959;
 }
 
 main article p {
