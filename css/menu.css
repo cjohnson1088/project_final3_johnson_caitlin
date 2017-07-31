@@ -133,7 +133,8 @@ main article section {
 main h2 {
     font-family: quimby-mayoral, sans-serif;
     border-bottom: #0140b1 solid 3px;
-    padding-bottom: 1%;
+    border-top: #0140b1 solid 3px;
+    padding: 1% 0;
 }
 
 figure img {
@@ -160,11 +161,48 @@ footer img {
 
 footer p {
     margin: 0;
+    font-size: 1.75em;
+}
+
+#copyright {
+    font-size: 1em;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 @media (min-width: 700px) {
     main article section {
         width: 48%;
         display: inline-grid;
+    }
+    header {
+        text-align: inherit;
+    }
+    header img {
+        border-bottom: none;
+    }
+    nav {
+        display: inline-block;
+        position: absolute;
+        top: 3em;
+        right: 0;
+    }
+    nav ul {
+        display: inline-flex;
+    }
+    nav ul li a {
+        padding: 0 1em;
+    }
+    #call-ahead {
+        width: 25%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 900px) {
+    main article section {
+        width: 32%;
     }
 }
