@@ -55,7 +55,7 @@ main article p {
 
 main article img {
     width: 35%;
-    border: #0140b1 solid 0.25px;
+    border: #0140b1 solid 0.25em;
 }
 
 .bold {
@@ -127,4 +127,35 @@ main article img {
 p.ribbon-content {
     margin: 0;
     font-size: 0.8rem;
+}
+
+/* End Ribbon */
+footer {
+    background-color: #0140b1;
+    color: white;
+    padding: 1em 2em;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+iframe {
+    display: none;
+}
+
+.directions-button {
+    color: #fbcc34;
+    text-decoration: none;
+}
+
+footer img {
+    width: 10%;
+    padding-bottom: 1em;
+}
+
+footer h3 {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin: 0;
 }
