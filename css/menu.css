@@ -40,7 +40,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-.current-page {
+#current-page {
     color: #fbcc34;
 }
 
@@ -76,20 +76,20 @@ main {
     content: "";
     position: absolute;
     display: block;
-    bottom: -1.3em;
+    bottom: -1.7em;
     border: 1.5em solid #0140b1;
     z-index: -1;
 }
 
 .ribbon::before {
-    left: -1.7em;
-    border-right-width: 1.5em;
+    left: -1.5em;
+    border-right-width: 1.7em;
     border-left-color: transparent;
 }
 
 .ribbon::after {
-    right: -1.7em;
-    border-left-width: 1.5em;
+    right: -1.5em;
+    border-left-width: 1.7em;
     border-right-color: transparent;
 }
 
@@ -115,7 +115,7 @@ main {
 
 .tk-quimby-mayoral {
     font-family: quimby-mayoral, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: #edd089;
 }
 
