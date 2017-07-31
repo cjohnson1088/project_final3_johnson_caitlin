@@ -1,0 +1,213 @@
+body {
+    background-image: url(../img/blue-stripe-background.jpg);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: white;
+    -webkit-box-shadow: 0 1px 2px 1px #7d7d7d;
+    box-shadow: 0 1px 2px 1px #7d7d7d;
+    text-align: center;
+    position: relative;
+    z-index: 10000;
+}
+
+header img {
+    width: 30%;
+    max-width: 215px;
+    padding: 10px;
+    border-bottom: #0140b1 solid 3px;
+}
+
+nav {
+    padding: 0 0 0.5em 0;
+    margin-top: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+nav ul li {
+    padding: 2% 0;
+}
+
+nav ul li a {
+    font-size: 1.1rem;
+    color: #412c01;
+    text-decoration: none;
+}
+
+#current-page {
+    color: #fbcc34;
+}
+
+main {
+    width: 75%;
+    color: #412c01;
+    margin: auto;
+    padding: 5px 0 15px 0;
+    background-color: #fbcc34;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 0 4px 1px #595959;
+    box-shadow: 0 0 4px 1px #595959;
+}
+
+/* Ribbon heading */
+.ribbon {
+    font-size: 16px;
+
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+    width: 50%;
+    position: relative;
+    background: #0140b1;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+
+.ribbon::before,
+.ribbon::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1.7em;
+    border: 1.5em solid #0140b1;
+    z-index: -1;
+}
+
+.ribbon::before {
+    left: -1.5em;
+    border-right-width: 1.7em;
+    border-left-color: transparent;
+}
+
+.ribbon::after {
+    right: -1.5em;
+    border-left-width: 1.7em;
+    border-right-color: transparent;
+}
+
+.ribbon .ribbon-content::before,
+.ribbon .ribbon-content::after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #083380 transparent transparent transparent;
+    bottom: -1em;
+}
+
+.ribbon .ribbon-content::before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content::after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+.tk-quimby-mayoral {
+    font-family: quimby-mayoral, sans-serif;
+    font-size: 1.7rem;
+    color: #edd089;
+}
+
+p.ribbon-content {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/* End Ribbon */
+main article {
+    width: 75%;
+    margin: auto;
+    font-size: 0.75em;
+}
+
+main h2 {
+    font-family: quimby-mayoral, sans-serif;
+    text-align: center;
+    border-bottom: #0140b1 solid 3px;
+    border-top: #0140b1 solid 3px;
+    padding: 1% 0;
+}
+
+article p a {
+    color: #412c01;
+}
+
+.centered {
+    text-align: center;
+}
+
+article img {
+    width: 75%;
+    max-width: 224px;
+}
+
+footer {
+    background-color: #0140b1;
+    color: white;
+    padding: 1em 2em;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    padding-bottom: 1em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.75em;
+}
+
+#copyright {
+    font-size: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (min-width: 700px) {
+    main article section {
+        width: 48%;
+        display: inline-grid;
+    }
+    header {
+        text-align: inherit;
+    }
+    header img {
+        border-bottom: none;
+    }
+    nav {
+        display: inline-block;
+        position: absolute;
+        top: 3em;
+        right: 0;
+    }
+    nav ul {
+        display: inline-flex;
+    }
+    nav ul li a {
+        padding: 0 1em;
+    }
+    #call-ahead {
+        width: 25%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 900px) {
+    main article section {
+        width: 32%;
+    }
+}
