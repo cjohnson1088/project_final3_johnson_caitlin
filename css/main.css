@@ -55,7 +55,7 @@ main article p {
 
 main article img {
     width: 35%;
-    border: #0140b1 solid 4px;
+    border: #0140b1 solid 0.25px;
 }
 
 .bold {
