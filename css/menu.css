@@ -125,6 +125,11 @@ p.ribbon-content {
 }
 
 /* End Ribbon */
+main article {
+    width: 75%;
+    margin: auto;
+}
+
 main article section {
     width: 75%;
     margin: auto;
@@ -144,6 +149,28 @@ figure img {
 figcaption p {
     width: 75%;
     margin: auto;
+}
+
+/* Beverage Section */
+div {
+    height: 1em;
+}
+
+.left,
+.right {
+    padding: 1px 0.5em;
+    background: #ffffff;
+    float: right;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.dotted {
+    border-bottom: 1px dotted grey;
+    margin-bottom: 2px;
 }
 
 footer {
