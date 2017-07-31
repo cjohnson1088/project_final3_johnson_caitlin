@@ -13,8 +13,9 @@ header {
 }
 
 header img {
-    width: 50%;
+    width: 30%;
     padding: 10px;
+    border-bottom: #0140b1 solid 3px;
 }
 
 nav {
@@ -81,19 +82,19 @@ main article img {
     content: "";
     position: absolute;
     display: block;
-    bottom: -1.5em;
+    bottom: -1.3em;
     border: 1.5em solid #0140b1;
     z-index: -1;
 }
 
 .ribbon::before {
-    left: -1.5em;
+    left: -1.7em;
     border-right-width: 1.5em;
     border-left-color: transparent;
 }
 
 .ribbon::after {
-    right: -1.5em;
+    right: -1.7em;
     border-left-width: 1.5em;
     border-right-color: transparent;
 }
