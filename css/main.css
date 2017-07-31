@@ -122,7 +122,7 @@ main article img {
 
 .tk-quimby-mayoral {
     font-family: quimby-mayoral, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #edd089;
 }
 
@@ -191,5 +191,26 @@ footer p {
     footer article {
         width: 50%;
         float: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer article {
+        width: 33%;
+        display: inline-block;
+        float: none;
+    }
+    #contact {
+        position: relative;
+        text-align: initial;
+        top: -50px;
+        font-size: 1.3em;
+    }
+    #call-ahead {
+        position: relative;
+        top: -150px;
+    }
+    #copyright {
+        text-align: right;
     }
 }
