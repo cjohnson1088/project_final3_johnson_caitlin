@@ -4,4 +4,7 @@ $(document).ready(function () {
     }, function () {
         $(this).css('color', '#412c01');
     });
+    $(function () {
+        $('.tlt').textillate({ in: { effect: 'rollIn' } });
+    });
 });
