@@ -7,4 +7,5 @@ $(document).ready(function () {
     $(function () {
         $('.tlt').textillate({ in: { effect: 'rollIn' } });
     });
+    $('a').confirmMailto();
 });
