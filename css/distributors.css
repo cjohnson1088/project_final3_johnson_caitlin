@@ -178,6 +178,9 @@ footer p {
 }
 
 @media (min-width: 700px) {
+    main article {
+        font-size: 1em;
+    }
     main article section {
         width: 48%;
         display: inline-grid;

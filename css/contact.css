@@ -148,6 +148,7 @@ article p {
 
 article p a {
     color: #412c01;
+    font-size: 0.75em;
 }
 
 iframe {
@@ -202,6 +203,9 @@ footer p {
     }
     nav ul li a {
         padding: 0 1em;
+    }
+    article p a {
+        font-size: 1em;
     }
     #call-ahead {
         width: 25%;
