@@ -176,7 +176,7 @@ div {
 footer {
     background-color: #0140b1;
     color: white;
-    padding: 1em 2em;
+    padding: 1em 2em 2em 2em;
     font-size: 0.75em;
     text-align: center;
 }
