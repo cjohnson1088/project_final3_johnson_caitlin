@@ -31,7 +31,7 @@ I reviewed the list of deductions for this project and in the syllabus.
 # Comments
 ### Errors on Index.html
 Validator does not like the way Google fonts combines fonts in one tag.
-I needed to make a <p> under the <h1> to make the ribbon look right.
+I needed to make a p under the h1 to make the ribbon look right.
 Validator does not like that MapQuest embedding.
 ### Errors on menu.html, distributors.html, fundraising.html
 Validator does not like the way Google fonts combines fonts in one tag.
@@ -39,4 +39,6 @@ Validator does not like the way Google fonts combines fonts in one tag.
 Validator does not like the way Google fonts combines fonts in one tag.
 Validator does not like that MapQuest embedding.
 ### Outliner Issues
-The Outliner couldn't read my ribbon headers so it looks like my pages don't have an <h1>.
+The Outliner couldn't read my ribbon headers so it looks like my pages don't have an h1.
+### Console Warnings
+These are being thrown by the MapQuest iframe. Could not figure out why, but I know that's where it's coming from.
