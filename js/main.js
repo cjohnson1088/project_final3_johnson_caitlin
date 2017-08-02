@@ -9,3 +9,7 @@ $(document).ready(function () {
     });
     $('a').confirmMailto();
 });
+
+var special = document.getElementById('special-deal');
+var para = document.createTextNode('Strawberry Donut BOGO!');
+special.appendChild(para);
