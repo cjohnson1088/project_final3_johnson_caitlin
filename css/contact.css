@@ -212,9 +212,3 @@ footer p {
         margin: auto;
     }
 }
-
-@media (min-width: 900px) {
-    main article section {
-        width: 32%;
-    }
-}
