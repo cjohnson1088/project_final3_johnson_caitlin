@@ -62,6 +62,17 @@ main article img {
     border: #0140b1 solid 0.25em;
 }
 
+h2 {
+    padding: 0 1em;
+}
+
+.different {
+    border: none;
+    width: 25%;
+    display: inline;
+    max-width: 150px;
+}
+
 .bold {
     font-weight: bold;
 }
