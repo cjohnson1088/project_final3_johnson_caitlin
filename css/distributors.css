@@ -151,6 +151,11 @@ article img {
     max-width: 224px;
 }
 
+article a img:hover {
+    -webkit-box-shadow: 0 0 4px 1px #595959;
+    box-shadow: 0 0 4px 1px #595959;
+}
+
 footer {
     background-color: #0140b1;
     color: white;
