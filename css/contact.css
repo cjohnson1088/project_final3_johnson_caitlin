@@ -155,6 +155,11 @@ iframe {
     width: 75%;
 }
 
+figure img {
+    width: 100%;
+    max-width: 300px;
+}
+
 .centered {
     text-align: center;
 }
