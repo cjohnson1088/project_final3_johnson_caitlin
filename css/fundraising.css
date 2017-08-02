@@ -187,6 +187,10 @@ footer p {
     text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 700px) {
     main p {
         font-size: 1em;

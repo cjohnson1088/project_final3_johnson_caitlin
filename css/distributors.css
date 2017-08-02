@@ -182,6 +182,10 @@ footer p {
     font-weight: bold;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 700px) {
     main article {
         font-size: 1em;

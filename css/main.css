@@ -175,6 +175,10 @@ footer p {
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
 @media (min-width: 700px) {
     header {
         text-align: inherit;
